@@ -6,7 +6,11 @@
 #define WEEK1_STUDENT_H
 
 
+#include <string>
+
 class Student {
+public:
+    std::string studieRichting;
 
 };
 
