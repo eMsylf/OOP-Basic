@@ -10,12 +10,13 @@
 #include <list>
 
 
+
 class Docent {
 public:
-    std::string voornaam, achternaam;
-    std:: list<>;
-    template <class T, class Alloc = std::allocator<T> > class list;
-    //een lijst met gegevenVakken, maar ik weet na 20 minuten op Google nog steeds niet zeker of de code hierboven zou werken
+    //std::string voornaam, achternaam;
+    //std:: list<>;
+    //template <class T, class Alloc = std::allocator<T> > class list;
+    //een lijst met gegevenVakken
 };
 
 

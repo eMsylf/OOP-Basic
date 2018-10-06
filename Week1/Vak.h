@@ -6,12 +6,11 @@
 #define WEEK1_VAK_H
 
 
+#include <string>
+
 class Vak {
 public:
-    double time;
-
-private:
-    int hours, minutes;
+    std::string naam;
 };
 
 

@@ -178,6 +178,33 @@ Klas.cpp.s:
 	$(MAKE) -f CMakeFiles\Week1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week1.dir\Klas.cpp.s
 .PHONY : Klas.cpp.s
 
+Les.obj: Les.cpp.obj
+
+.PHONY : Les.obj
+
+# target to build an object file
+Les.cpp.obj:
+	$(MAKE) -f CMakeFiles\Week1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week1.dir\Les.cpp.obj
+.PHONY : Les.cpp.obj
+
+Les.i: Les.cpp.i
+
+.PHONY : Les.i
+
+# target to preprocess a source file
+Les.cpp.i:
+	$(MAKE) -f CMakeFiles\Week1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week1.dir\Les.cpp.i
+.PHONY : Les.cpp.i
+
+Les.s: Les.cpp.s
+
+.PHONY : Les.s
+
+# target to generate assembly for a file
+Les.cpp.s:
+	$(MAKE) -f CMakeFiles\Week1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week1.dir\Les.cpp.s
+.PHONY : Les.cpp.s
+
 Rooster.obj: Rooster.cpp.obj
 
 .PHONY : Rooster.obj
@@ -301,6 +328,9 @@ help:
 	@echo ... Klas.obj
 	@echo ... Klas.i
 	@echo ... Klas.s
+	@echo ... Les.obj
+	@echo ... Les.i
+	@echo ... Les.s
 	@echo ... Rooster.obj
 	@echo ... Rooster.i
 	@echo ... Rooster.s

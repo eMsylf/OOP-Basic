@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/Docent.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/cmake-build-debug/CMakeFiles/Week1.dir/Docent.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/Klas.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/cmake-build-debug/CMakeFiles/Week1.dir/Klas.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/Les.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/cmake-build-debug/CMakeFiles/Week1.dir/Les.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/Rooster.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/cmake-build-debug/CMakeFiles/Week1.dir/Rooster.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/Student.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/cmake-build-debug/CMakeFiles/Week1.dir/Student.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/Vak.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week1/cmake-build-debug/CMakeFiles/Week1.dir/Vak.cpp.obj"

@@ -5,6 +5,7 @@
 #ifndef WEEK1_ROOSTER_H
 #define WEEK1_ROOSTER_H
 
+#include "Les.h"
 
 class Rooster {
 

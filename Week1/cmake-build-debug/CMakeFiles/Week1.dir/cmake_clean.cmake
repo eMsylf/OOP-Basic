@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Week1.dir/Vak.cpp.obj"
   "CMakeFiles/Week1.dir/Rooster.cpp.obj"
   "CMakeFiles/Week1.dir/Klas.cpp.obj"
+  "CMakeFiles/Week1.dir/Les.cpp.obj"
   "Week1.pdb"
   "Week1.exe"
   "Week1.exe.manifest"

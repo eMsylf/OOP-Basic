@@ -172,6 +172,25 @@ CMakeFiles\Week1.dir\Klas.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Klas.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
 <<
 
+CMakeFiles\Week1.dir\Les.cpp.obj: CMakeFiles\Week1.dir\flags.make
+CMakeFiles\Week1.dir\Les.cpp.obj: ..\Les.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Week1.dir/Les.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Les.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
+<<
+
+CMakeFiles\Week1.dir\Les.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Les.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Les.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
+<<
+
+CMakeFiles\Week1.dir\Les.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Les.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Les.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
+<<
+
 # Object files for target Week1
 Week1_OBJECTS = \
 "CMakeFiles\Week1.dir\main.cpp.obj" \
@@ -179,7 +198,8 @@ Week1_OBJECTS = \
 "CMakeFiles\Week1.dir\Student.cpp.obj" \
 "CMakeFiles\Week1.dir\Vak.cpp.obj" \
 "CMakeFiles\Week1.dir\Rooster.cpp.obj" \
-"CMakeFiles\Week1.dir\Klas.cpp.obj"
+"CMakeFiles\Week1.dir\Klas.cpp.obj" \
+"CMakeFiles\Week1.dir\Les.cpp.obj"
 
 # External object files for target Week1
 Week1_EXTERNAL_OBJECTS =
@@ -190,9 +210,10 @@ Week1.exe: CMakeFiles\Week1.dir\Student.cpp.obj
 Week1.exe: CMakeFiles\Week1.dir\Vak.cpp.obj
 Week1.exe: CMakeFiles\Week1.dir\Rooster.cpp.obj
 Week1.exe: CMakeFiles\Week1.dir\Klas.cpp.obj
+Week1.exe: CMakeFiles\Week1.dir\Les.cpp.obj
 Week1.exe: CMakeFiles\Week1.dir\build.make
 Week1.exe: CMakeFiles\Week1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Week1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Week1.exe"
 	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Week1.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Week1.dir\objects1.rsp @<<
  /out:Week1.exe /implib:Week1.lib /pdb:C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\Week1.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
