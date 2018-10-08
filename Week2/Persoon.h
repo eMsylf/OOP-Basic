@@ -6,8 +6,16 @@
 #define UNTITLED_PERSOON_H
 
 
-class Persoon {
+#include <string>
 
+class Persoon {
+private:
+    int leeftijd;
+    std::string naam;
+
+public:
+    int getAge();
+    std::string getName();
 };
 
 

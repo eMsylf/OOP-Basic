@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled
+CMAKE_SOURCE_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\untitled.dir\depend.make
@@ -60,78 +60,78 @@ include CMakeFiles\untitled.dir\flags.make
 
 CMakeFiles\untitled.dir\main.cpp.obj: CMakeFiles\untitled.dir\flags.make
 CMakeFiles\untitled.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\main.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\main.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\main.cpp
 <<
 
 CMakeFiles\untitled.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\main.cpp
 <<
 
 CMakeFiles\untitled.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\main.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\main.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\main.cpp
 <<
 
 CMakeFiles\untitled.dir\Persoon.cpp.obj: CMakeFiles\untitled.dir\flags.make
 CMakeFiles\untitled.dir\Persoon.cpp.obj: ..\Persoon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Persoon.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Persoon.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\Persoon.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Persoon.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\Persoon.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Persoon.cpp
 <<
 
 CMakeFiles\untitled.dir\Persoon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Persoon.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\Persoon.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Persoon.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Persoon.cpp
 <<
 
 CMakeFiles\untitled.dir\Persoon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Persoon.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Persoon.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Persoon.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Persoon.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Persoon.cpp
 <<
 
 CMakeFiles\untitled.dir\Student.cpp.obj: CMakeFiles\untitled.dir\flags.make
 CMakeFiles\untitled.dir\Student.cpp.obj: ..\Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Student.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Student.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\Student.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Student.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\Student.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Student.cpp
 <<
 
 CMakeFiles\untitled.dir\Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Student.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\Student.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Student.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Student.cpp
 <<
 
 CMakeFiles\untitled.dir\Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Student.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Student.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Student.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Student.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Student.cpp
 <<
 
 CMakeFiles\untitled.dir\Docent.cpp.obj: CMakeFiles\untitled.dir\flags.make
 CMakeFiles\untitled.dir\Docent.cpp.obj: ..\Docent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Docent.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Docent.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\Docent.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Docent.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled.dir\Docent.cpp.obj /FdCMakeFiles\untitled.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Docent.cpp
 <<
 
 CMakeFiles\untitled.dir\Docent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Docent.cpp.i"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled.dir\Docent.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Docent.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Docent.cpp
 <<
 
 CMakeFiles\untitled.dir\Docent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Docent.cpp.s"
 	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Docent.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\Docent.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled.dir\Docent.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\Docent.cpp
 <<
 
 # Object files for target untitled
@@ -150,9 +150,9 @@ untitled.exe: CMakeFiles\untitled.dir\Student.cpp.obj
 untitled.exe: CMakeFiles\untitled.dir\Docent.cpp.obj
 untitled.exe: CMakeFiles\untitled.dir\build.make
 untitled.exe: CMakeFiles\untitled.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled.exe"
 	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\untitled.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\untitled.dir\objects1.rsp @<<
- /out:untitled.exe /implib:untitled.lib /pdb:C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\untitled.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:untitled.exe /implib:untitled.lib /pdb:C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\untitled.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -165,6 +165,6 @@ CMakeFiles\untitled.dir\clean:
 .PHONY : CMakeFiles\untitled.dir\clean
 
 CMakeFiles\untitled.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug C:\Users\Bob\Documents\GitHub\OOP-Basic\untitled\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2 C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2 C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug C:\Users\Bob\Documents\GitHub\OOP-Basic\Week2\cmake-build-debug\CMakeFiles\untitled.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\untitled.dir\depend
 

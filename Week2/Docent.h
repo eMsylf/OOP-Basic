@@ -5,6 +5,7 @@
 #ifndef UNTITLED_DOCENT_H
 #define UNTITLED_DOCENT_H
 
+#include "Persoon.h"
 
 class Docent {
 
