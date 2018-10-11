@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/Een_Euro.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/cmake-build-debug/CMakeFiles/week3.dir/Een_Euro.cpp.obj"
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/Koffiemuntje.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/cmake-build-debug/CMakeFiles/week3.dir/Koffiemuntje.cpp.obj"
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/Munt.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/cmake-build-debug/CMakeFiles/week3.dir/Munt.cpp.obj"
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/Vijftig_Cent.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/cmake-build-debug/CMakeFiles/week3.dir/Vijftig_Cent.cpp.obj"
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/main.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/week3/cmake-build-debug/CMakeFiles/week3.dir/main.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Een_Euro.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/week3.dir/Een_Euro.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Koffiemuntje.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/week3.dir/Koffiemuntje.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Munt.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/week3.dir/Munt.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Vijftig_Cent.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/week3.dir/Vijftig_Cent.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/main.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/week3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

@@ -3,3 +3,7 @@
 //
 
 #include "Munt.h"
+
+void Munt::getValue() {
+
+}

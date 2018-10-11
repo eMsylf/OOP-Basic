@@ -7,6 +7,12 @@
 
 
 class Munt {
+private:
+    int value;
+    std::string name;
+
+public:
+    void getValue();
 
 };
 
