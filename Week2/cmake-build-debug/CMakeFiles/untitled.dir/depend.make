@@ -12,8 +12,6 @@ CMakeFiles\untitled.dir\Student.cpp.obj: ..\Persoon.h
 CMakeFiles\untitled.dir\Student.cpp.obj: ..\Student.cpp
 CMakeFiles\untitled.dir\Student.cpp.obj: ..\Student.h
 
-CMakeFiles\untitled.dir\main.cpp.obj: ..\Docent.h
 CMakeFiles\untitled.dir\main.cpp.obj: ..\Persoon.h
-CMakeFiles\untitled.dir\main.cpp.obj: ..\Student.h
 CMakeFiles\untitled.dir\main.cpp.obj: ..\main.cpp
 

@@ -3,3 +3,11 @@
 //
 
 #include "Student.h"
+
+/*
+int Persoon::getAge() {
+    leeftijd = 17;
+
+    return leeftijd;
+}*/
+

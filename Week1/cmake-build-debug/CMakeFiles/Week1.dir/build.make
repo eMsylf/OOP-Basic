@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1
+CMAKE_SOURCE_DIR = D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Week1.dir\depend.make
@@ -60,135 +60,135 @@ include CMakeFiles\Week1.dir\flags.make
 
 CMakeFiles\Week1.dir\main.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Week1.dir/main.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\main.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Week1.dir/main.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\main.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\main.cpp
 <<
 
 CMakeFiles\Week1.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\main.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\main.cpp
 <<
 
 CMakeFiles\Week1.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/main.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\main.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\main.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\main.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\main.cpp
 <<
 
 CMakeFiles\Week1.dir\Docent.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\Docent.cpp.obj: ..\Docent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Week1.dir/Docent.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Docent.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Docent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Week1.dir/Docent.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Docent.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Docent.cpp
 <<
 
 CMakeFiles\Week1.dir\Docent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Docent.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Docent.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Docent.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Docent.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Docent.cpp
 <<
 
 CMakeFiles\Week1.dir\Docent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Docent.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Docent.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Docent.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Docent.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Docent.cpp
 <<
 
 CMakeFiles\Week1.dir\Student.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\Student.cpp.obj: ..\Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Week1.dir/Student.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Student.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Week1.dir/Student.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Student.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Student.cpp
 <<
 
 CMakeFiles\Week1.dir\Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Student.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Student.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Student.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Student.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Student.cpp
 <<
 
 CMakeFiles\Week1.dir\Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Student.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Student.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Student.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Student.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Student.cpp
 <<
 
 CMakeFiles\Week1.dir\Vak.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\Vak.cpp.obj: ..\Vak.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Week1.dir/Vak.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Vak.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Vak.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Week1.dir/Vak.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Vak.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Vak.cpp
 <<
 
 CMakeFiles\Week1.dir\Vak.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Vak.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Vak.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Vak.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Vak.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Vak.cpp
 <<
 
 CMakeFiles\Week1.dir\Vak.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Vak.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Vak.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Vak.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Vak.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Vak.cpp
 <<
 
 CMakeFiles\Week1.dir\Rooster.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\Rooster.cpp.obj: ..\Rooster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Week1.dir/Rooster.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Rooster.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Rooster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Week1.dir/Rooster.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Rooster.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Rooster.cpp
 <<
 
 CMakeFiles\Week1.dir\Rooster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Rooster.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Rooster.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Rooster.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Rooster.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Rooster.cpp
 <<
 
 CMakeFiles\Week1.dir\Rooster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Rooster.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Rooster.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Rooster.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Rooster.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Rooster.cpp
 <<
 
 CMakeFiles\Week1.dir\Klas.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\Klas.cpp.obj: ..\Klas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Week1.dir/Klas.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Klas.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Week1.dir/Klas.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Klas.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
 <<
 
 CMakeFiles\Week1.dir\Klas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Klas.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Klas.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Klas.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
 <<
 
 CMakeFiles\Week1.dir\Klas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Klas.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Klas.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Klas.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Klas.cpp
 <<
 
 CMakeFiles\Week1.dir\Les.cpp.obj: CMakeFiles\Week1.dir\flags.make
 CMakeFiles\Week1.dir\Les.cpp.obj: ..\Les.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Week1.dir/Les.cpp.obj"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Les.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Week1.dir/Les.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week1.dir\Les.cpp.obj /FdCMakeFiles\Week1.dir\ /FS -c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
 <<
 
 CMakeFiles\Week1.dir\Les.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Les.cpp.i"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Les.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Week1.dir\Les.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
 <<
 
 CMakeFiles\Week1.dir\Les.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Les.cpp.s"
-	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Les.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
+	C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week1.dir\Les.cpp.s /c D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\Les.cpp
 <<
 
 # Object files for target Week1
@@ -213,9 +213,9 @@ Week1.exe: CMakeFiles\Week1.dir\Klas.cpp.obj
 Week1.exe: CMakeFiles\Week1.dir\Les.cpp.obj
 Week1.exe: CMakeFiles\Week1.dir\build.make
 Week1.exe: CMakeFiles\Week1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Week1.exe"
-	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Week1.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Week1.dir\objects1.rsp @<<
- /out:Week1.exe /implib:Week1.lib /pdb:C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\Week1.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Week1.exe"
+	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Week1.dir --manifests  -- C:\PROGRA~2\MIB055~1\2017\COMMUN~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Week1.dir\objects1.rsp @<<
+ /out:Week1.exe /implib:Week1.lib /pdb:D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\Week1.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -228,6 +228,6 @@ CMakeFiles\Week1.dir\clean:
 .PHONY : CMakeFiles\Week1.dir\clean
 
 CMakeFiles\Week1.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1 C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1 C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug C:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles\Week1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1 D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1 D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug D:\Users\Bob\Documents\GitHub\OOP-Basic\Week1\cmake-build-debug\CMakeFiles\Week1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Week1.dir\depend
 

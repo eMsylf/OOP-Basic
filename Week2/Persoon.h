@@ -5,7 +5,6 @@
 #ifndef UNTITLED_PERSOON_H
 #define UNTITLED_PERSOON_H
 
-
 #include <string>
 
 class Persoon {
@@ -15,6 +14,8 @@ private:
 
 public:
     int getAge();
+
+
     std::string getName();
 };
 
