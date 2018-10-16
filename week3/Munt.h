@@ -5,6 +5,7 @@
 #ifndef WEEK3_MUNT_H
 #define WEEK3_MUNT_H
 
+#include <string>
 
 class Munt {
 private:
