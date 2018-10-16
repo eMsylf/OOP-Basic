@@ -112,17 +112,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named week3
+# Target rules for targets named Week3
 
 # Build rule for target.
-week3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) week3
-.PHONY : week3
+Week3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Week3
+.PHONY : Week3
 
 # fast build rule for target.
-week3\fast:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\build
-.PHONY : week3\fast
+Week3\fast:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\build
+.PHONY : Week3\fast
 
 Een_Euro.obj: Een_Euro.cpp.obj
 
@@ -130,7 +130,7 @@ Een_Euro.obj: Een_Euro.cpp.obj
 
 # target to build an object file
 Een_Euro.cpp.obj:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Een_Euro.cpp.obj
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Een_Euro.cpp.obj
 .PHONY : Een_Euro.cpp.obj
 
 Een_Euro.i: Een_Euro.cpp.i
@@ -139,7 +139,7 @@ Een_Euro.i: Een_Euro.cpp.i
 
 # target to preprocess a source file
 Een_Euro.cpp.i:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Een_Euro.cpp.i
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Een_Euro.cpp.i
 .PHONY : Een_Euro.cpp.i
 
 Een_Euro.s: Een_Euro.cpp.s
@@ -148,7 +148,7 @@ Een_Euro.s: Een_Euro.cpp.s
 
 # target to generate assembly for a file
 Een_Euro.cpp.s:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Een_Euro.cpp.s
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Een_Euro.cpp.s
 .PHONY : Een_Euro.cpp.s
 
 Koffiemuntje.obj: Koffiemuntje.cpp.obj
@@ -157,7 +157,7 @@ Koffiemuntje.obj: Koffiemuntje.cpp.obj
 
 # target to build an object file
 Koffiemuntje.cpp.obj:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Koffiemuntje.cpp.obj
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Koffiemuntje.cpp.obj
 .PHONY : Koffiemuntje.cpp.obj
 
 Koffiemuntje.i: Koffiemuntje.cpp.i
@@ -166,7 +166,7 @@ Koffiemuntje.i: Koffiemuntje.cpp.i
 
 # target to preprocess a source file
 Koffiemuntje.cpp.i:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Koffiemuntje.cpp.i
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Koffiemuntje.cpp.i
 .PHONY : Koffiemuntje.cpp.i
 
 Koffiemuntje.s: Koffiemuntje.cpp.s
@@ -175,7 +175,7 @@ Koffiemuntje.s: Koffiemuntje.cpp.s
 
 # target to generate assembly for a file
 Koffiemuntje.cpp.s:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Koffiemuntje.cpp.s
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Koffiemuntje.cpp.s
 .PHONY : Koffiemuntje.cpp.s
 
 Munt.obj: Munt.cpp.obj
@@ -184,7 +184,7 @@ Munt.obj: Munt.cpp.obj
 
 # target to build an object file
 Munt.cpp.obj:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Munt.cpp.obj
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Munt.cpp.obj
 .PHONY : Munt.cpp.obj
 
 Munt.i: Munt.cpp.i
@@ -193,7 +193,7 @@ Munt.i: Munt.cpp.i
 
 # target to preprocess a source file
 Munt.cpp.i:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Munt.cpp.i
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Munt.cpp.i
 .PHONY : Munt.cpp.i
 
 Munt.s: Munt.cpp.s
@@ -202,7 +202,7 @@ Munt.s: Munt.cpp.s
 
 # target to generate assembly for a file
 Munt.cpp.s:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Munt.cpp.s
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Munt.cpp.s
 .PHONY : Munt.cpp.s
 
 Vijftig_Cent.obj: Vijftig_Cent.cpp.obj
@@ -211,7 +211,7 @@ Vijftig_Cent.obj: Vijftig_Cent.cpp.obj
 
 # target to build an object file
 Vijftig_Cent.cpp.obj:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Vijftig_Cent.cpp.obj
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Vijftig_Cent.cpp.obj
 .PHONY : Vijftig_Cent.cpp.obj
 
 Vijftig_Cent.i: Vijftig_Cent.cpp.i
@@ -220,7 +220,7 @@ Vijftig_Cent.i: Vijftig_Cent.cpp.i
 
 # target to preprocess a source file
 Vijftig_Cent.cpp.i:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Vijftig_Cent.cpp.i
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Vijftig_Cent.cpp.i
 .PHONY : Vijftig_Cent.cpp.i
 
 Vijftig_Cent.s: Vijftig_Cent.cpp.s
@@ -229,7 +229,7 @@ Vijftig_Cent.s: Vijftig_Cent.cpp.s
 
 # target to generate assembly for a file
 Vijftig_Cent.cpp.s:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\Vijftig_Cent.cpp.s
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Vijftig_Cent.cpp.s
 .PHONY : Vijftig_Cent.cpp.s
 
 main.obj: main.cpp.obj
@@ -238,7 +238,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\main.cpp.obj
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -247,7 +247,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\main.cpp.i
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -256,7 +256,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\week3.dir\main.cpp.s
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -265,7 +265,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... week3
+	@echo ... Week3
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Een_Euro.obj
