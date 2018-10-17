@@ -7,6 +7,12 @@
 
 
 class Vijftig_Cent {
+    //Waarde van €0,50
+
+private:
+
+public:
+
 
 };
 

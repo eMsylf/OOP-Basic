@@ -7,6 +7,12 @@
 
 
 class Een_Euro {
+    //Munt met een waarde van €1,00
+
+private:
+
+public:
+
 
 };
 

@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Een_Euro.h">
 			<Option target="Week3"/>
 		</Unit>
+		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/KoffieAutomaat.cpp">
+			<Option target="Week3"/>
+		</Unit>
+		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/KoffieAutomaat.h">
+			<Option target="Week3"/>
+		</Unit>
 		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Koffiemuntje.cpp">
 			<Option target="Week3"/>
 		</Unit>

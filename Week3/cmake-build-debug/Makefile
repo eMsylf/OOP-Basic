@@ -151,6 +151,33 @@ Een_Euro.cpp.s:
 	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\Een_Euro.cpp.s
 .PHONY : Een_Euro.cpp.s
 
+KoffieAutomaat.obj: KoffieAutomaat.cpp.obj
+
+.PHONY : KoffieAutomaat.obj
+
+# target to build an object file
+KoffieAutomaat.cpp.obj:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\KoffieAutomaat.cpp.obj
+.PHONY : KoffieAutomaat.cpp.obj
+
+KoffieAutomaat.i: KoffieAutomaat.cpp.i
+
+.PHONY : KoffieAutomaat.i
+
+# target to preprocess a source file
+KoffieAutomaat.cpp.i:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\KoffieAutomaat.cpp.i
+.PHONY : KoffieAutomaat.cpp.i
+
+KoffieAutomaat.s: KoffieAutomaat.cpp.s
+
+.PHONY : KoffieAutomaat.s
+
+# target to generate assembly for a file
+KoffieAutomaat.cpp.s:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\KoffieAutomaat.cpp.s
+.PHONY : KoffieAutomaat.cpp.s
+
 Koffiemuntje.obj: Koffiemuntje.cpp.obj
 
 .PHONY : Koffiemuntje.obj
@@ -271,6 +298,9 @@ help:
 	@echo ... Een_Euro.obj
 	@echo ... Een_Euro.i
 	@echo ... Een_Euro.s
+	@echo ... KoffieAutomaat.obj
+	@echo ... KoffieAutomaat.i
+	@echo ... KoffieAutomaat.s
 	@echo ... Koffiemuntje.obj
 	@echo ... Koffiemuntje.i
 	@echo ... Koffiemuntje.s

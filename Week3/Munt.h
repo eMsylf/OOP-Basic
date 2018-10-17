@@ -6,7 +6,16 @@
 #define WEEK3_MUNT_H
 
 
+#include <string>
+
 class Munt {
+// Abstractie van alle beschikbare munten
+
+private:
+    std::string name;
+
+public:
+    virtual std::string GetName();
 
 };
 

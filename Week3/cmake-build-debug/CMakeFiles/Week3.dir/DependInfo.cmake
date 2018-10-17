@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Een_Euro.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Een_Euro.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/KoffieAutomaat.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/KoffieAutomaat.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Koffiemuntje.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Koffiemuntje.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Munt.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Munt.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Vijftig_Cent.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Vijftig_Cent.cpp.obj"

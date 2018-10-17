@@ -153,13 +153,33 @@ CMakeFiles\Week3.dir\Een_Euro.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week3.dir\Een_Euro.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\Een_Euro.cpp
 <<
 
+CMakeFiles\Week3.dir\KoffieAutomaat.cpp.obj: CMakeFiles\Week3.dir\flags.make
+CMakeFiles\Week3.dir\KoffieAutomaat.cpp.obj: ..\KoffieAutomaat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Week3.dir/KoffieAutomaat.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Week3.dir\KoffieAutomaat.cpp.obj /FdCMakeFiles\Week3.dir\ /FS -c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\KoffieAutomaat.cpp
+<<
+
+CMakeFiles\Week3.dir\KoffieAutomaat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week3.dir/KoffieAutomaat.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe > CMakeFiles\Week3.dir\KoffieAutomaat.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\KoffieAutomaat.cpp
+<<
+
+CMakeFiles\Week3.dir\KoffieAutomaat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week3.dir/KoffieAutomaat.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Week3.dir\KoffieAutomaat.cpp.s /c C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\KoffieAutomaat.cpp
+<<
+
 # Object files for target Week3
 Week3_OBJECTS = \
 "CMakeFiles\Week3.dir\main.cpp.obj" \
 "CMakeFiles\Week3.dir\Munt.cpp.obj" \
 "CMakeFiles\Week3.dir\Koffiemuntje.cpp.obj" \
 "CMakeFiles\Week3.dir\Vijftig_Cent.cpp.obj" \
-"CMakeFiles\Week3.dir\Een_Euro.cpp.obj"
+"CMakeFiles\Week3.dir\Een_Euro.cpp.obj" \
+"CMakeFiles\Week3.dir\KoffieAutomaat.cpp.obj"
 
 # External object files for target Week3
 Week3_EXTERNAL_OBJECTS =
@@ -169,9 +189,10 @@ Week3.exe: CMakeFiles\Week3.dir\Munt.cpp.obj
 Week3.exe: CMakeFiles\Week3.dir\Koffiemuntje.cpp.obj
 Week3.exe: CMakeFiles\Week3.dir\Vijftig_Cent.cpp.obj
 Week3.exe: CMakeFiles\Week3.dir\Een_Euro.cpp.obj
+Week3.exe: CMakeFiles\Week3.dir\KoffieAutomaat.cpp.obj
 Week3.exe: CMakeFiles\Week3.dir\build.make
 Week3.exe: CMakeFiles\Week3.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Week3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Week3.exe"
 	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Week3.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1414~1.264\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Week3.dir\objects1.rsp @<<
  /out:Week3.exe /implib:Week3.lib /pdb:C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\Week3.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

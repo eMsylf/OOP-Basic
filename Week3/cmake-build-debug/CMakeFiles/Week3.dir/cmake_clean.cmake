@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Week3.dir/Koffiemuntje.cpp.obj"
   "CMakeFiles/Week3.dir/Vijftig_Cent.cpp.obj"
   "CMakeFiles/Week3.dir/Een_Euro.cpp.obj"
+  "CMakeFiles/Week3.dir/KoffieAutomaat.cpp.obj"
   "Week3.pdb"
   "Week3.exe"
   "Week3.exe.manifest"

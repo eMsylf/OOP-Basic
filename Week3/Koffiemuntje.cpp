@@ -3,3 +3,7 @@
 //
 
 #include "Koffiemuntje.h"
+
+float Koffiemuntje::GetValue(float value) {
+    return value;
+}

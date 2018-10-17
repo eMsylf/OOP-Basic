@@ -3,3 +3,7 @@
 //
 
 #include "Munt.h"
+
+std::string Munt::GetName() {
+    return "Munt";
+}
