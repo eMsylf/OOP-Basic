@@ -14,14 +14,14 @@ Huiswerk Github van Bob Jeltes voor het vak Object Oriented Programming Basic, g
 
 ## Spiekbriefje
 * Scope:
-    Hoe lang een variabele meegaat
+    * Hoe lang een variabele meegaat
 * Bij stack:
-    object.methode();
+    * object.methode();
 * Bij heap:
-    object->methode();
+    * object->methode();
 * The big 3
-    Destructor
-    Copy-constructor
-    Copy assignment Operator
+    * Destructor
+    * Copy-constructor
+    * Copy assignment Operator
 * Assignment-operator
-    Wijst waardes van een bestaand object toe aan een nieuw object (Is dus geen constructor! Er wordt geen nieuw object aangemaakt!) 
+    * Wijst waardes van een bestaand object toe aan een nieuw object (Is dus geen constructor! Er wordt geen nieuw object aangemaakt!) 
