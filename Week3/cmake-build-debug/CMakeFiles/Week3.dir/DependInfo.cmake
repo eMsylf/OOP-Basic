@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Een_Euro.cpp" "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Een_Euro.cpp.obj"
-  "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/KoffieAutomaat.cpp" "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/KoffieAutomaat.cpp.obj"
-  "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Koffiemuntje.cpp" "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Koffiemuntje.cpp.obj"
-  "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Munt.cpp" "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Munt.cpp.obj"
-  "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Vijftig_Cent.cpp" "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Vijftig_Cent.cpp.obj"
-  "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/main.cpp" "D:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/main.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Een_Euro.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Een_Euro.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/KoffieAutomaat.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/KoffieAutomaat.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Koffiemuntje.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Koffiemuntje.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Munt.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Munt.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/Vijftig_Cent.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/Vijftig_Cent.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/main.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week3/cmake-build-debug/CMakeFiles/Week3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
