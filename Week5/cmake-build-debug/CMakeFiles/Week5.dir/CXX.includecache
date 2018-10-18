@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodje.h
+string
+-
+
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.cpp
+iostream
+-
+Broodmandje.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.h
+
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.h
+string
+-
+Broodje.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodje.h
+
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/main.cpp
+iostream
+-
+Broodmandje.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.h
+
