@@ -5,6 +5,7 @@
 #ifndef WEEK3_KOFFIEAUTOMAAT_H
 #define WEEK3_KOFFIEAUTOMAAT_H
 
+#include <string>
 ///Summary
 /*
  * De KoffieAutomaat class bevat:
@@ -19,9 +20,13 @@
 class KoffieAutomaat {
 
 private:
+    std::string koffie;
+    std::string espresso;
+    std::string cappuccino;
 
 
 public:
+    std::string DisplayCoin();
 
 };
 

@@ -5,5 +5,6 @@
 #include "Koffiemuntje.h"
 
 float Koffiemuntje::GetValue(float value) {
+    value = 999;
     return value;
 }

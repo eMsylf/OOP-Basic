@@ -13,6 +13,7 @@ class Koffiemuntje {
 //Neemt de waarde van de gekozen drank aan?
 
 private:
+    float value;
     std::string name;
 
 public:
