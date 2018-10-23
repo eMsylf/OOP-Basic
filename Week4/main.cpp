@@ -19,9 +19,15 @@ int main() {
     out_streamCombine.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_combine.txt");
     out_streamReverse.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/ykcowrebbaj.txt");
 
-    if (!in_stream1) {
-        std::cout << "Probleem bij openen file 1" << std::endl;
-        exit(1);
+    if (!(in_stream1 || in_stream2 || out_streamCombine || out_streamReverse)) {
+        in_stream1.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
+        in_stream2.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_lat.txt");
+        out_streamCombine.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_combine.txt");
+        out_streamReverse.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/ykcowrebbaj.txt");
+        if (!in_stream1) {
+            std::cout << "Probleem bij openen file 1" << std::endl;
+            exit(1);
+        }
     }
 
     if (!out_streamReverse) {
@@ -61,7 +67,7 @@ int main() {
 
     std::cout << "Start cycles" << std::endl;
     while (docLength > 0) {
-        in_stream1.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
+        in_stream1.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
         while (docLengthThisTime < docLength) {
             in_stream1.get(ch1);
             if (docLengthThisTime == docLength) {
