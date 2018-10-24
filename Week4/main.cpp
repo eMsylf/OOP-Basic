@@ -13,7 +13,6 @@ int main() {
     std::ofstream out_streamReverse;
     std::ofstream out_streamCombine;
 
-
     in_stream1.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
     in_stream2.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_lat.txt");
     out_streamCombine.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_combine.txt");
@@ -24,15 +23,10 @@ int main() {
         in_stream2.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_lat.txt");
         out_streamCombine.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky_combine.txt");
         out_streamReverse.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/ykcowrebbaj.txt");
-        if (!in_stream1) {
+        if (!(in_stream1 || in_stream2 || out_streamCombine || out_streamReverse)) {
             std::cout << "Probleem bij openen file 1" << std::endl;
             exit(1);
         }
-    }
-
-    if (!out_streamReverse) {
-        std::cout << "Probleem bij openen file 2" << std::endl;
-        exit(2);
     }
 
     char ch1;
@@ -44,7 +38,6 @@ int main() {
     in_stream1.get(ch);
     std::cout << ch << std::endl;
     */
-
 
     //Om-en-om wegschrijven in nieuw bestand
     while (!in_stream1.eof()) {
