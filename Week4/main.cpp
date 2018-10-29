@@ -52,32 +52,37 @@ int main() {
 
     in_stream1.close();
     in_stream2.close();
-
-
+    out_streamCombine.close();
 
     std::cout << "Doc length: " << docLength << " characters" << std::endl << std::endl;
     int cycles = 0;
+    int innerCycles = 0;
 
     std::cout << "Start cycles" << std::endl;
     while (docLength > 0) {
-        in_stream1.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
-        while (docLengthThisTime < docLength) {
+        docLengthThisTime = 0;
+        in_stream1.open("C:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
+        if (!in_stream1){
+            in_stream1.open("D:/Users/Bob/Documents/GitHub/OOP-Basic/Week4/jabberwocky.txt");
+        }
+        while (docLengthThisTime <= docLength) {
             in_stream1.get(ch1);
             if (docLengthThisTime == docLength) {
                 out_streamReverse.put(ch1);
+                innerCycles++;
             }
             docLengthThisTime++;
         }
         in_stream1.close();
         docLength--;
+
         cycles++;
     }
 
-    std::cout << "Doc length: " << docLength << " characters" << std::endl;
-    std::cout << cycles << std::endl;
+    std::cout << "Outer cycles completed: " << cycles << std::endl;
+    std::cout << "Inner cycles completed: " << innerCycles << std::endl;
 
     in_stream1.close();
-    in_stream2.close();
     out_streamCombine.close();
     out_streamReverse.close();
 
