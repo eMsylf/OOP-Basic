@@ -2,26 +2,26 @@
 #include "Broodmandje.h"
 
 
-void geefMandjeDoor(Broodmandje* mandje) {
+void geefMandjeDoor(Bibliotheek* theek) {
     std::cout << "Mandje gekregen" << std::endl;
-    mandje->toon();
+    theek->toon();
 
-    mandje->voegToe("Croissant");
-    mandje->toon();
+    theek->voegToe("Croissant");
+    theek->toon();
 }
 
 int main() {
     std::cout << "Mandje maken" << std::endl;
-    Broodmandje* mandje = new Broodmandje();
-    mandje->toon();
+    Bibliotheek* theek = new Bibliotheek();
+    theek->toon();
 
-    mandje->voegToe("Ciabatta");
-    mandje->toon();
+    theek->voegToe("Ciabatta");
+    theek->toon();
 
-    geefMandjeDoor(mandje);
+    geefMandjeDoor(theek);
 
     std::cout << "Mandje teruggekregen" << std::endl;
-    mandje->toon();
+    theek->toon();
 
     std::cout << "Hello, World!" << std::endl;
     return 0;

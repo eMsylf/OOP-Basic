@@ -8,14 +8,16 @@
 
 #include <string>
 
-class Munt {
+virtual class Munt {
 // Abstractie van alle beschikbare munten
 
 private:
     std::string name;
+    float value;
 
 public:
     virtual std::string GetName();
+    virtual std::string GetValue();
 
 };
 

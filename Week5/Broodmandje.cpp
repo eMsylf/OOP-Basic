@@ -7,32 +7,32 @@
 
 #include <string>
 
-Broodmandje::Broodmandje() {}
+Bibliotheek::Bibliotheek() {}
 
-void Broodmandje::toon() {
-    std::cout << "  Broodmandje bevat " << broodje.type << std::endl;
+void Bibliotheek::toon() {
+    std::cout << "  Bibliotheek bevat " << boek->type << std::endl;
 }
 
-void Broodmandje::voegToe(std::string type) {
-    broodje = new Broodje(type);
+void Bibliotheek::voegToe(std::string type) {
+    boek = new Boek(type);
 }
 
-Broodmandje::Broodmandje(const Broodmandje& b) {
-    broodje = new Broodje(b.broodje->type);
+Bibliotheek::Bibliotheek(const Bibliotheek& b) {
+    boek = new Boek(b.boek->type);
 }
 
-Broodmandje::~Broodmandje() {
-    delete broodje;
+Bibliotheek::~Bibliotheek() {
+    delete boek;
 }
 
-Broodmandje &Broodmandje::operator=(const Broodmandje &b) {
+Bibliotheek &Bibliotheek::operator=(const Bibliotheek &b) {
     //Safe self-assignment
     if (this != &b) {
         //Als er al een broodje aanwezig is, wordt het broodje gedeletet zodat er geen memory leak ontstaat
-        if (broodje) {
-            delete broodje;
+        if (boek) {
+            delete boek;
         }
-        broodje = new Broodje(b.broodje->type);
+        boek = new Boek(b.boek->type);
     }
     return *this;
 }

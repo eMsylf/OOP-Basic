@@ -5,5 +5,9 @@
 #include "Munt.h"
 
 std::string Munt::GetName() {
-    return "Munt";
+    return name;
+}
+
+float Munt::GetValue() {
+    return value
 }

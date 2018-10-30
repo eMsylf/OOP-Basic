@@ -7,11 +7,11 @@
 
 #include <string>
 
-class Broodje {
+class Boek {
 public:
-    Broodje();
+    Boek();
 
-    Broodje(std::string name);
+    Boek(std::string name);
 
     std::string type;
 };

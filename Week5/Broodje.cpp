@@ -4,10 +4,10 @@
 
 #include "Broodje.h"
 
-Broodje::Broodje() {
+Boek::Boek() {
 
 }
 
-Broodje::Broodje(std::string name) {
+Boek::Boek(std::string name) {
     this->type = name;
 }

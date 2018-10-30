@@ -9,23 +9,23 @@
 #include <string>
 #include "Broodje.h"
 
-class Broodmandje {
+class Bibliotheek {
 public:
     //Constructor
-    Broodmandje();
+    Bibliotheek();
     //Copy-constructor
-    Broodmandje(const Broodmandje& b);
+    Bibliotheek(const Bibliotheek& b);
     //Destructor
-    ~Broodmandje();
+    ~Bibliotheek();
     //Assignment operator
-    Broodmandje& operator=(const Broodmandje& b);
+    Bibliotheek& operator=(const Bibliotheek& b);
 
     void toon();
 
     void voegToe(std::string type);
 
 private:
-    Broodje* broodje = new Broodje();
+    Boek* boek = new Boek();
 };
 
 

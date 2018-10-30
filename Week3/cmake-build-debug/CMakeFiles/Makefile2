@@ -66,43 +66,6 @@ CMAKE_SOURCE_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3
 CMAKE_BINARY_DIR = C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Week3.dir
-
-# All Build rule for target.
-CMakeFiles\Week3.dir\all:
-	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\depend
-	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Week3"
-.PHONY : CMakeFiles\Week3.dir\all
-
-# Include target in all.
-all: CMakeFiles\Week3.dir\all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles\Week3.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\CMakeFiles 7
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Bob\Documents\GitHub\OOP-Basic\Week3\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles\Week3.dir\rule
-
-# Convenience name for target.
-Week3: CMakeFiles\Week3.dir\rule
-
-.PHONY : Week3
-
-# clean rule for target.
-CMakeFiles\Week3.dir\clean:
-	$(MAKE) -f CMakeFiles\Week3.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week3.dir\clean
-.PHONY : CMakeFiles\Week3.dir\clean
-
-# clean rule for target.
-clean: CMakeFiles\Week3.dir\clean
-
-.PHONY : clean
-
-#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

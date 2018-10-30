@@ -10,8 +10,11 @@ class Een_Euro {
     //Munt met een waarde van €1,00
 
 private:
+    std::string name = "euro";
+    float value = 1.00;
 
 public:
+
 
 
 };
