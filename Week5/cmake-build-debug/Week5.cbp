@@ -34,7 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
@@ -55,7 +55,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"/>
@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodje.cpp">
+		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Bibliotheek.cpp">
 			<Option target="Week5"/>
 		</Unit>
-		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodje.h">
+		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Bibliotheek.h">
 			<Option target="Week5"/>
 		</Unit>
-		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.cpp">
+		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Boek.cpp">
 			<Option target="Week5"/>
 		</Unit>
-		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.h">
+		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Boek.h">
 			<Option target="Week5"/>
 		</Unit>
 		<Unit filename="C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/main.cpp">

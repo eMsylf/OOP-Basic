@@ -1,3 +1,0 @@
-C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
-C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug-visual-studio/CMakeFiles/Week5.dir
-C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

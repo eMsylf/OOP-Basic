@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodje.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug/CMakeFiles/Week5.dir/Broodje.cpp.obj"
-  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Broodmandje.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug/CMakeFiles/Week5.dir/Broodmandje.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Bibliotheek.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug/CMakeFiles/Week5.dir/Bibliotheek.cpp.obj"
+  "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/Boek.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug/CMakeFiles/Week5.dir/Boek.cpp.obj"
   "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/main.cpp" "C:/Users/Bob/Documents/GitHub/OOP-Basic/Week5/cmake-build-debug/CMakeFiles/Week5.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

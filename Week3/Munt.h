@@ -1,5 +1,5 @@
 //
-// Created by Bob on 16-10-2018.
+// Created by Bob on 30-10-2018.
 //
 
 #ifndef WEEK3_MUNT_H
@@ -8,7 +8,7 @@
 
 #include <string>
 
-virtual class Munt {
+class Munt {
 // Abstractie van alle beschikbare munten
 
 private:
@@ -17,7 +17,7 @@ private:
 
 public:
     virtual std::string GetName();
-    virtual std::string GetValue();
+    virtual float GetValue();
 
 };
 

@@ -124,59 +124,59 @@ Week5\fast:
 	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\build
 .PHONY : Week5\fast
 
-Broodje.obj: Broodje.cpp.obj
+Bibliotheek.obj: Bibliotheek.cpp.obj
 
-.PHONY : Broodje.obj
-
-# target to build an object file
-Broodje.cpp.obj:
-	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Broodje.cpp.obj
-.PHONY : Broodje.cpp.obj
-
-Broodje.i: Broodje.cpp.i
-
-.PHONY : Broodje.i
-
-# target to preprocess a source file
-Broodje.cpp.i:
-	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Broodje.cpp.i
-.PHONY : Broodje.cpp.i
-
-Broodje.s: Broodje.cpp.s
-
-.PHONY : Broodje.s
-
-# target to generate assembly for a file
-Broodje.cpp.s:
-	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Broodje.cpp.s
-.PHONY : Broodje.cpp.s
-
-Broodmandje.obj: Broodmandje.cpp.obj
-
-.PHONY : Broodmandje.obj
+.PHONY : Bibliotheek.obj
 
 # target to build an object file
-Broodmandje.cpp.obj:
-	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Broodmandje.cpp.obj
-.PHONY : Broodmandje.cpp.obj
+Bibliotheek.cpp.obj:
+	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Bibliotheek.cpp.obj
+.PHONY : Bibliotheek.cpp.obj
 
-Broodmandje.i: Broodmandje.cpp.i
+Bibliotheek.i: Bibliotheek.cpp.i
 
-.PHONY : Broodmandje.i
+.PHONY : Bibliotheek.i
 
 # target to preprocess a source file
-Broodmandje.cpp.i:
-	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Broodmandje.cpp.i
-.PHONY : Broodmandje.cpp.i
+Bibliotheek.cpp.i:
+	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Bibliotheek.cpp.i
+.PHONY : Bibliotheek.cpp.i
 
-Broodmandje.s: Broodmandje.cpp.s
+Bibliotheek.s: Bibliotheek.cpp.s
 
-.PHONY : Broodmandje.s
+.PHONY : Bibliotheek.s
 
 # target to generate assembly for a file
-Broodmandje.cpp.s:
-	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Broodmandje.cpp.s
-.PHONY : Broodmandje.cpp.s
+Bibliotheek.cpp.s:
+	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Bibliotheek.cpp.s
+.PHONY : Bibliotheek.cpp.s
+
+Boek.obj: Boek.cpp.obj
+
+.PHONY : Boek.obj
+
+# target to build an object file
+Boek.cpp.obj:
+	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Boek.cpp.obj
+.PHONY : Boek.cpp.obj
+
+Boek.i: Boek.cpp.i
+
+.PHONY : Boek.i
+
+# target to preprocess a source file
+Boek.cpp.i:
+	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Boek.cpp.i
+.PHONY : Boek.cpp.i
+
+Boek.s: Boek.cpp.s
+
+.PHONY : Boek.s
+
+# target to generate assembly for a file
+Boek.cpp.s:
+	$(MAKE) -f CMakeFiles\Week5.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Week5.dir\Boek.cpp.s
+.PHONY : Boek.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -214,12 +214,12 @@ help:
 	@echo ... edit_cache
 	@echo ... Week5
 	@echo ... rebuild_cache
-	@echo ... Broodje.obj
-	@echo ... Broodje.i
-	@echo ... Broodje.s
-	@echo ... Broodmandje.obj
-	@echo ... Broodmandje.i
-	@echo ... Broodmandje.s
+	@echo ... Bibliotheek.obj
+	@echo ... Bibliotheek.i
+	@echo ... Bibliotheek.s
+	@echo ... Boek.obj
+	@echo ... Boek.i
+	@echo ... Boek.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

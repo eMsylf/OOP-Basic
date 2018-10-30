@@ -3,4 +3,4 @@ project(Week6)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Week6 main.cpp)
+add_executable(Week6 main.cpp Trein.cpp Trein.h HogeSnelheidsTrein.cpp HogeSnelheidsTrein.h)

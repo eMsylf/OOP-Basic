@@ -3,11 +3,3 @@
 //
 
 #include "Boek.h"
-
-Boek::Boek() {
-
-}
-
-Boek::Boek(std::string name) {
-    this->type = name;
-}

@@ -5,15 +5,9 @@
 #ifndef WEEK5_BOEK_H
 #define WEEK5_BOEK_H
 
-#include <string>
 
 class Boek {
-public:
-    Boek();
 
-    Boek(std::string name);
-
-    std::string type;
 };
 
 

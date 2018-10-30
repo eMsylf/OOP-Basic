@@ -1,5 +1,5 @@
 //
-// Created by Bob on 16-10-2018.
+// Created by Bob on 30-10-2018.
 //
 
 #include "Munt.h"
@@ -9,5 +9,5 @@ std::string Munt::GetName() {
 }
 
 float Munt::GetValue() {
-    return value
+    return value;
 }
