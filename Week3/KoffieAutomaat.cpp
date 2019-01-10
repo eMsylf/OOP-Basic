@@ -4,7 +4,22 @@
 
 #include "KoffieAutomaat.h"
 
-std::string KoffieAutomaat::DisplayCoin() {
-    //Get name of coin
-    return std::string();
+void KoffieAutomaat::ReceiveCoinValue() {
+
+}
+
+void KoffieAutomaat::ReceiveCoinKoffiemuntje() {
+
+}
+
+void KoffieAutomaat::PourCoffee(float price) {
+    price = 1.00;
+}
+
+void KoffieAutomaat::PourEspresso(float price) {
+    price = 1.00;
+}
+
+void KoffieAutomaat::PourCappuccino(float price) {
+    price = 1.50;
 }

@@ -6,6 +6,8 @@
 #define WEEK3_KOFFIEAUTOMAAT_H
 
 #include <string>
+#include "Munt.h"
+
 ///Summary
 /*
  * De KoffieAutomaat class bevat:
@@ -26,8 +28,13 @@ private:
 
 
 public:
-    std::string DisplayCoin();
+    void ReceiveCoinValue();
+    void ReceiveCoinKoffiemuntje();
 
+
+    void PourCoffee(float);
+    void PourEspresso(float);
+    void PourCappuccino(float);
 };
 
 
