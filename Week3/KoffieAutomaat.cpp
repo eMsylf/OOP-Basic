@@ -4,14 +4,6 @@
 
 #include "KoffieAutomaat.h"
 
-void KoffieAutomaat::ReceiveCoinValue() {
-
-}
-
-void KoffieAutomaat::ReceiveCoinKoffiemuntje() {
-
-}
-
 void KoffieAutomaat::PourCoffee(float price) {
     price = 1.00;
 }
@@ -23,3 +15,12 @@ void KoffieAutomaat::PourEspresso(float price) {
 void KoffieAutomaat::PourCappuccino(float price) {
     price = 1.50;
 }
+
+void KoffieAutomaat::ReceiveCoin(float value, std::string coinName) {
+
+}
+
+void KoffieAutomaat::ReceiveCoinKoffiemuntje() {
+
+}
+

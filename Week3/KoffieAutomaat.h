@@ -6,7 +6,9 @@
 #define WEEK3_KOFFIEAUTOMAAT_H
 
 #include <string>
-#include "Munt.h"
+#include "Vijftig_Cent.h"
+#include "Een_Euro.h"
+#include "Koffiemuntje.h"
 
 ///Summary
 /*
@@ -28,7 +30,7 @@ private:
 
 
 public:
-    void ReceiveCoinValue();
+    void ReceiveCoin(float value, std::string coincName);
     void ReceiveCoinKoffiemuntje();
 
 

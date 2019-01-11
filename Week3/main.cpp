@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Munt.h"
+#include "KoffieAutomaat.h"
 
 int main() {
 
