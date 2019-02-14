@@ -4,14 +4,15 @@
 
 #include "Persoon.h"
 
-int Persoon::getAge() {
-    leeftijd = 15;
+Persoon::Persoon(std::string _naam, int _leeftijd) {
+    naam = _naam;
+    leeftijd = _leeftijd;
+}
 
+int Persoon::getAge() {
     return leeftijd;
 }
 
 std::string Persoon::getName() {
-    return std::string("Harry");
+    return naam;
 }
-
-

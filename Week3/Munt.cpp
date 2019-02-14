@@ -7,7 +7,3 @@
 std::string Munt::GetName() {
     return name;
 }
-
-float Munt::GetValue() {
-    return value;
-}

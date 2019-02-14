@@ -7,8 +7,13 @@
 
 #include "Persoon.h"
 
-class Student {
+class Student : public Persoon{
+private:
+    bool depressie;
 
+public:
+    Student(std::string _naam, int _leeftijd, bool _depressie);
+    bool getDepressie();
 };
 
 

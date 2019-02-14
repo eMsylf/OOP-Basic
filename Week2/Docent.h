@@ -7,8 +7,13 @@
 
 #include "Persoon.h"
 
-class Docent {
+class Docent : public Persoon{
+private:
+    float salaris;
 
+public:
+    Docent(std::string _naam, int _leeftijd, float _salaris);
+    float getSalaris();
 };
 
 

@@ -17,7 +17,7 @@ private:
 
 public:
     virtual std::string GetName();
-    virtual float GetValue();
+    virtual float GetValue() = 0; //a pure virtual function is what makes a class abstract
 
 };
 

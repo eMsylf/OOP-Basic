@@ -12,12 +12,11 @@ private:
     int leeftijd;
     std::string naam;
 
+
 public:
+    Persoon(std::string _naam, int _leeftijd);
     int getAge();
-
-
     std::string getName();
 };
-
 
 #endif //UNTITLED_PERSOON_H

@@ -6,33 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Docent.cpp
-Docent.h
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Docent.h
-
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Docent.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Docent.h
 Persoon.h
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
 
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.cpp
-Persoon.h
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
-
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
 string
 -
 
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Student.cpp
-Student.h
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Student.h
-
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Student.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Student.h
 Persoon.h
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
 
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/main.cpp
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/main.cpp
 iostream
 -
-Persoon.h
-D:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Persoon.h
+Docent.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Docent.h
+Student.h
+C:/Users/Bob/Documents/GitHub/OOP-Basic/Week2/Student.h
 

@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"
-  "untitled.lib"
+  "libuntitled.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,9 +4,11 @@
 
 #include "Docent.h"
 
-/*
-int Persoon::getAge() {
-    leeftijd = 46;
+Docent::Docent(std::string _naam, int _leeftijd, float _salaris) : Persoon(_naam, _leeftijd) {
+    salaris = _salaris;
+}
 
-    return leeftijd;
-}*/
+float Docent::getSalaris() {
+    return salaris;
+}
+

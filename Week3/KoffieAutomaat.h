@@ -30,7 +30,7 @@ private:
 
 
 public:
-    void ReceiveCoin(float value, std::string coincName);
+    void ReceiveCoin(float value, std::string coinName);
     void ReceiveCoinKoffiemuntje();
 
 
