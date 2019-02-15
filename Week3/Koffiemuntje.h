@@ -5,19 +5,16 @@
 #ifndef WEEK3_KOFFIEMUNTJE_H
 #define WEEK3_KOFFIEMUNTJE_H
 
-
+#include "Munt.h"
 #include <string>
 
-class Koffiemuntje {
+class Koffiemuntje : public Munt {
 //Dit muntje kan worden ingewisseld voor elke drank
 //Neemt de waarde van de gekozen drank aan?
 
 private:
-    float value;
-    std::string name;
-
-public:
-    float GetValue(float value);
+    std::string name = "koffiemuntje";
+    float value = -1;
 
 };
 

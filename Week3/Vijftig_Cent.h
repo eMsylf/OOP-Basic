@@ -11,12 +11,11 @@ class Vijftig_Cent : public Munt {
     //Waarde van €0,50
 
 private:
-    std::string name = "Vijftig cent";
+    std::string name = "vijftig cent";
     float value = .50;
 
 public:
-    std::string GetName() override;
-    float GetValue() override;
+
 };
 
 

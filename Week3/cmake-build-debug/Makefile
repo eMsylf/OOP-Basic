@@ -149,6 +149,33 @@ Een_Euro.cpp.s:
 	$(MAKE) -f CMakeFiles\Week3.dir\build.make CMakeFiles/Week3.dir/Een_Euro.cpp.s
 .PHONY : Een_Euro.cpp.s
 
+Koffie.obj: Koffie.cpp.obj
+
+.PHONY : Koffie.obj
+
+# target to build an object file
+Koffie.cpp.obj:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make CMakeFiles/Week3.dir/Koffie.cpp.obj
+.PHONY : Koffie.cpp.obj
+
+Koffie.i: Koffie.cpp.i
+
+.PHONY : Koffie.i
+
+# target to preprocess a source file
+Koffie.cpp.i:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make CMakeFiles/Week3.dir/Koffie.cpp.i
+.PHONY : Koffie.cpp.i
+
+Koffie.s: Koffie.cpp.s
+
+.PHONY : Koffie.s
+
+# target to generate assembly for a file
+Koffie.cpp.s:
+	$(MAKE) -f CMakeFiles\Week3.dir\build.make CMakeFiles/Week3.dir/Koffie.cpp.s
+.PHONY : Koffie.cpp.s
+
 KoffieAutomaat.obj: KoffieAutomaat.cpp.obj
 
 .PHONY : KoffieAutomaat.obj
@@ -296,6 +323,9 @@ help:
 	@echo ... Een_Euro.obj
 	@echo ... Een_Euro.i
 	@echo ... Een_Euro.s
+	@echo ... Koffie.obj
+	@echo ... Koffie.i
+	@echo ... Koffie.s
 	@echo ... KoffieAutomaat.obj
 	@echo ... KoffieAutomaat.i
 	@echo ... KoffieAutomaat.s

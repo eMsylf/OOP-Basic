@@ -5,38 +5,22 @@
 #ifndef WEEK3_KOFFIEAUTOMAAT_H
 #define WEEK3_KOFFIEAUTOMAAT_H
 
+#include <iostream>
 #include <string>
 #include "Vijftig_Cent.h"
 #include "Een_Euro.h"
 #include "Koffiemuntje.h"
-
-///Summary
-/*
- * De KoffieAutomaat class bevat:
- * o 3 methods om de verschillende muntjes te ontvangen
- * o 3 methods om 3 verschillende soorten koffie te leveren tegen 3 verschillende prijzen
- * De automaat beeldt ook af
- * o welke munt is ingeworpen
- * o welke soort koffie je kunt kopen
- */
-
+#include "Koffie.h"
 
 class KoffieAutomaat {
 
 private:
-    std::string koffie;
-    std::string espresso;
-    std::string cappuccino;
 
 
 public:
-    void ReceiveCoin(float value, std::string coinName);
-    void ReceiveCoinKoffiemuntje();
+    void ReceiveCoin(Munt munt);
+    KoffieAutomaat();
 
-
-    void PourCoffee(float);
-    void PourEspresso(float);
-    void PourCappuccino(float);
 };
 
 
